@@ -6,7 +6,7 @@
   padding: 0;
   top: 0;
   text-decoration: none;
-  font-family: outfit, sans-serif;
+  font-family: outfit;
 }
 body {
   background-color: #010922;
@@ -513,7 +513,7 @@ text-align: left;
 .submit button {
   position: absolute;
   border-radius: 75px;
-  padding: 17px 55px;
+  padding: 10px 55px;
   left: 14rem;
   margin-top: 1rem;
   font-family: Outfit;
