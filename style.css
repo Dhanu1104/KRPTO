@@ -97,12 +97,25 @@ body {
 .f-btn {
   border: none;
   background-color: #8080d7;
-  font-size: x-large;
+/*   font-size: x-large; */
   color: #fff;
+  font-family: Outfit;
+font-size: 20px;
+font-weight: 600;
+line-height: 27.5px;
+letter-spacing: 0.1em;
+text-align: left;
+
 }
 .s-btn {
   border: 1px solid #aad9d9;
-  font-size: x-large;
+/*   font-size: x-large; */
+  font-family: Outfit;
+font-size: 20px;
+font-weight: 600;
+line-height: 27.5px;
+letter-spacing: 0.1em;
+text-align: left;
   color: #fff;
   margin-left: 10px;
   background: transparent;
@@ -186,11 +199,15 @@ body {
   border-radius: 45px;
   padding: 20px 80px;
   margin-top: 2rem;
-
-  cursor: pointer;
+  font-family: Outfit;
+font-size: 20px;
+font-weight: 600;
+line-height: 27.5px;
+text-align: left;
+cursor: pointer;
   border: none;
   background-color: #8080d7;
-  font-size: x-large;
+/*   font-size: x-large; */
   color: #fff;
 }
 .png2 {
@@ -249,13 +266,17 @@ body {
 }
 .text2 button {
   margin-top: 2rem;
-
+font-family: Outfit;
+font-size: 20px;
+font-weight: 600;
+line-height: 27.5px;
+text-align: left;
   border-radius: 45px;
   padding: 20px 80px;
   cursor: pointer;
   border: none;
   background-color: #8080d7;
-  font-size: x-large;
+/*   font-size: x-large; */
   color: #fff;
 }
 .png3 {
@@ -406,7 +427,12 @@ body {
   padding: 25px 80px;
   cursor: pointer;
   background-color: black;
-  font-size: x-large;
+/*   font-size: x-large; */
+  font-family: Outfit;
+font-size: 20px;
+font-weight: 600;
+line-height: 27.5px;
+text-align: left;
   color: #fff;
   margin-bottom: 3rem;
 }
@@ -490,6 +516,12 @@ body {
   padding: 25px 55px;
   left: 14rem;
   margin-top: 1rem;
+  font-family: Outfit;
+font-size: 14px;
+font-weight: 600;
+line-height: 27.5px;
+text-align: left;
+
   border: none;
   z-index: 10;
   background: #9191dc;
