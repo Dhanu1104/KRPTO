@@ -97,25 +97,23 @@ body {
 .f-btn {
   border: none;
   background-color: #8080d7;
-/*   font-size: x-large; */
-  color: #fff;
   font-family: Outfit;
-font-size: 20px;
-font-weight: 600;
-line-height: 27.5px;
-letter-spacing: 0.1em;
-text-align: left;
-
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.5px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #fff;
 }
 .s-btn {
   border: 1px solid #aad9d9;
-/*   font-size: x-large; */
   font-family: Outfit;
-font-size: 20px;
-font-weight: 600;
-line-height: 27.5px;
-letter-spacing: 0.1em;
-text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.5px;
+  letter-spacing: 0.1em;
+  text-align: left;
+
   color: #fff;
   margin-left: 10px;
   background: transparent;
@@ -199,15 +197,15 @@ text-align: left;
   border-radius: 45px;
   padding: 20px 80px;
   margin-top: 2rem;
-  font-family: Outfit;
-font-size: 20px;
-font-weight: 600;
-line-height: 27.5px;
-text-align: left;
-cursor: pointer;
+
+  cursor: pointer;
   border: none;
   background-color: #8080d7;
-/*   font-size: x-large; */
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.5px;
+  text-align: left;
   color: #fff;
 }
 .png2 {
@@ -266,17 +264,17 @@ cursor: pointer;
 }
 .text2 button {
   margin-top: 2rem;
-font-family: Outfit;
-font-size: 20px;
-font-weight: 600;
-line-height: 27.5px;
-text-align: left;
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.5px;
+  text-align: left;
+
   border-radius: 45px;
   padding: 20px 80px;
   cursor: pointer;
   border: none;
   background-color: #8080d7;
-/*   font-size: x-large; */
   color: #fff;
 }
 .png3 {
@@ -427,12 +425,7 @@ text-align: left;
   padding: 25px 80px;
   cursor: pointer;
   background-color: black;
-/*   font-size: x-large; */
-  font-family: Outfit;
-font-size: 20px;
-font-weight: 600;
-line-height: 27.5px;
-text-align: left;
+  font-size: x-large;
   color: #fff;
   margin-bottom: 3rem;
 }
@@ -455,7 +448,7 @@ text-align: left;
 .boxf {
   display: flex;
   flex-direction: column;
-
+  z-index: 10;
   color: #fff;
   font-family: Outfit;
   font-size: 16px;
@@ -496,6 +489,9 @@ text-align: left;
   padding: 25px 55px;
   gap: 79px;
 
+  line-height: 31px;
+  text-align: left;
+
   left: 10%;
   border: none;
   background: #13124f;
@@ -503,9 +499,8 @@ text-align: left;
 }
 ::placeholder {
   font-family: Outfit;
-  font-size: larger;
-  font-weight: 700;
-  line-height: 31px;
+  font-size: 16px;
+  font-weight: 400;
   text-align: left;
   color: #ffff;
 }
@@ -513,16 +508,16 @@ text-align: left;
 .submit button {
   position: absolute;
   border-radius: 75px;
-  padding: 10px 55px;
+  padding: 25px 55px;
   left: 14rem;
   margin-top: 1rem;
-  font-family: Outfit;
-font-size: 14px;
-font-weight: 600;
-line-height: 25px;
-text-align: left;
-
   border: none;
   z-index: 10;
   background: #9191dc;
+  color: #ffff;
+  font-family: Outfit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 27.5px;
+  text-align: left;
 }
